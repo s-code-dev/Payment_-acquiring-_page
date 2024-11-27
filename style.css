@@ -1,0 +1,465 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('ofont.ru_Helvetica Neue.ttf') format('truetype');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+     font-family: 'Helvetica Neue';
+    padding: 20px 320px 0 320px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    font-weight: 100;
+}
+
+.header{
+    width: 100%;
+    margin: 0 auto;
+    /* outline: 3px solid #000080; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex: 1 1 150px;
+    
+}
+
+.header__wrapper-block{
+    padding: 10px 30px 10px 30px;
+    box-sizing: border-box;
+    display: flex;
+    /* align-items: center; */
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.header__logo{
+    color: aliceblue;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    font-weight: 100;
+    justify-content: center;
+}
+
+.header__logo{
+    height: 80px;
+    width: 80px;
+    background-color: #000080;
+}
+
+.header__nav{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-self: self-end;
+}
+
+.header__nav div{
+    height: 10px;
+    background-color: #000080;
+    width: 80px;
+}
+
+main{
+    /* width: 90%; */
+    padding-top: 30px;
+    /* outline: 3px solid #000080; */
+    /* margin: 0 auto; */
+    box-sizing: border-box;
+    margin-top: 16px;
+    flex: 1 1 100%;
+    margin-bottom: 16px;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* outline: 3px solid #000080; */
+}
+
+.footer__div-one{
+    height: 7px;
+    width: 90%;
+    background-color: #000080;
+    margin: 0 auto;
+}
+
+.footer__div-two{
+    height: 7px;
+    width: 30%;
+    background-color: #000080;
+    margin: 0 auto;
+
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+article{
+    width: 320px;
+    height: 450px;
+    /* outline: 1px solid #000080; */
+    color: #000080;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.card__img{
+    width: 100%;
+    height: 70%;
+    background-color: #bcbcbc;
+}
+
+article button{
+    color: #000080;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition-duration: .2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+article a{
+    text-decoration: none;
+}
+
+article button:hover{
+    opacity: .8;
+}
+
+.card__cost{
+    font-size: 24px;
+}
+
+article h3{
+    font-size: 22px;
+
+}
+.card-payment{
+    width: 100%;
+   
+}
+
+.card-payment h4{
+    font-size: 26px;
+}
+
+.card-payment__left-block__wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card-payment__wrapper{
+     display: flex;
+     height:100%;
+     margin-top: 15px;
+     width: 100%;
+     color: #000080;
+     
+
+}
+
+/* .card-payment__left-block__wrapper, .card-payment__left-block{
+    border: 1px solid black;
+    
+} */
+
+.card-payment__left-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-payment__left-block{
+    flex-basis: 60%;
+}
+
+.card-payment__left-block__wrap{
+    display: flex;
+    width: 100%;
+    height: 150px;
+}
+
+.card-payment__right-block{
+    flex-basis: 40%;
+    /* border: 1px solid black; */
+    padding: 0px 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+.info-payment__left{
+    flex-basis: 40%;
+}
+
+.info-payment__right{
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+
+}
+
+.info-payment__left-wrapper{
+    height: 100%;
+}
+
+.info-payment__name-count{
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+
+.info-payment__left-wrapper  h4{
+    font-size: 26px;
+}
+
+.info-payment__product{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+
+}
+.info-payment__img{
+    width: 150px;
+    height: 100%;
+    background-color: #bcbcbc;
+}
+
+.card-payment__down{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 53%;
+    line-height: 24px;
+}
+
+.card-payment__ad{
+    font-size: 22px;
+}
+
+.card-payment__right-block__wrapper{
+    border: 2px solid rgba(14, 0, 143, .3);
+    border-radius: 20px;
+    width: 430px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.paymants__wrapper-sbp, .paymants__bank-card{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.paymants__sbp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+.paymants__sbp:hover{
+    border: 2px solid rgba(14, 0, 143, .4);
+}
+
+.paymants__bank-card{
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+.paymants__bank-card:hover{
+    border: 2px solid rgba(14, 0, 143, .5);
+}
+
+.paymants__sbp-logo{
+    width: 60px;
+}
+
+.paymants__sbp-logo, .paymants__sbp-text{
+    margin-left: 20px;
+  
+}
+
+.paymants__bank-card, .paymants__sbp{
+
+     width: 100%;
+     border-radius: 5%;
+     border: 2px solid rgba(14, 0, 143, .3);
+     flex-basis: 100px;
+
+}
+
+.paymants__cost{
+    font-size: 28px;
+}
+
+.paymants__submit{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: .5s;
+
+}
+
+.paymants__submit:hover{
+    opacity: .7;
+}
+
+.paymants__submit p img{
+
+    margin-left: 5px;
+
+}
+
+.paymants__submit p{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.paymants__hiden-sbp-block{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+.paymants__hiden-sbp-block div:first-child img{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.paymants__hiden-sbp-block p{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.paymants__hiden-sbp-block div:first-child{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 330px;
+}
+
+.paymants__hiden-sbp-block div:last-child{
+    display: flex;
+    font-size: 12px;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    width: 53%;
+}
+
+.paymants__hiden-sbp-block div:last-child img{
+    width: 40px;
+}
+
+.paymants__hiden-sbp-block div:last-child div{
+    flex-shrink: 0;
+    margin-left: 5px;
+}
+
+
+.paymants__hiden-bank-card-block{
+    display: none;
+    height: 80%;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 28px;
+}
+
+.paymants__hiden-bank-card-block div:first-child{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+    justify-content: space-evenly;
+}
+
+.paymants__hiden-bank-card-block img{
+    width: 40px;
+}
+
+.paymants__hiden-bank-card-block div:last-child{
+    display: flex;
+    font-size: 12px;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.paymants__hiden-bank-card-block input{
+    width: 100%;
+}
+
+.paymants__hiden-bank-card-block input:focus{
+    border: 2px solid rgba(14, 0, 143, .8);
+
+}
+
+.paymants__hiden-bank-card-block input{
+    outline: none;
+    border: 2px solid rgba(14, 0, 143, .3);
+    /* border: none; */
+    border-radius: 10px;
+    height: 90px;
+    padding: 5px;
+    box-sizing: border-box;
+    
+
+}
+
+.paymants__hiden-bank-card-block+div input:first{
+
+    margin: 20px 0 0 0;
+
+}
+.paymants__hiden-bank-card-block div div input:nth-child(1){
+    margin-right: 10px;
+}
+
+.paymants__hiden-bank-card-block input[placeholder]{
+    font-size: 20px;
+
+}
+
+
+    
